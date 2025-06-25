@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load('home_price_model.pkl')
+model = joblib.load('home_price_model2.pkl')
 
 # App Title
 st.set_page_config(page_title="Home Price Predictor", page_icon="🏠")
